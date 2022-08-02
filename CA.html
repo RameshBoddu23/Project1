@@ -1,0 +1,139 @@
+<html>
+<head>
+    <title>
+        html tags
+    </title>
+    <style>
+
+
+#ff
+{
+background-color: aliceblue;
+float:center;
+padding-top: 10px;
+margin-left: 20px; 
+width: 500px;
+height:380px;
+border-radius:10px;
+border-top:100px;
+border-bottom: 5px;
+cursor:pointer;
+}
+tr:nth-child(even)
+{
+    background-color: azure;
+}
+tr:hover
+{
+background-color:green;
+font-weight:bold;
+font-size: medium;
+}
+#g
+{
+    float:right;
+    margin: right 20px;
+    height:40px;
+    width:40px; 
+}
+#b
+{
+background-image: url("c2.jfif");
+background-size:1300px auto;
+background-repeat: no-repeat;
+}
+#back
+{
+    margin-left:20px;
+    padding-top: 5px;
+    color:rgb(54, 37, 30);
+}
+textarea
+{
+    resize: none;
+}
+table{
+    border-style: groove;
+    border: darkslategray;
+    border-collapse: collapse;
+}
+    </style>
+    </head>
+    <header>
+            
+        <a href="https://www.google.com/search?gs_ssp=eJzj4tTP1TcwMU02T1JgNGB0YPBiS8_PT89JBQBASQXT&q=google&rlz=1C1CHZN_enIN1015IN1015&oq=goo&aqs=chrome.3.69i57j69i59l2j46i131i199i433i465i512j0i131i433i512l2j69i60l2.8452j0j7&sourceid=chrome&ie=UTF-8" target="_blank">
+            <img src="D:\Assignment\g.jpg" id="g">
+        </a>
+        <a href="loginpage.html" target="_blank" id="back">Back to Login page</a>
+    </header>
+    <hr size="10" color="red" width="1500px">
+    <body id="b"> <center>
+        <fieldset id="ff">
+            <font size="7" color="blue" >
+                Create Account
+            </font>
+            <hr size="10" color="black" width="">
+            <form name="f1">
+                <table align="center" border="1" >
+                    <tr>
+                        <td>Username</td>
+                        <td><input type="text" name="t1" size="20" maxlength="15"></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" name="t2" size="20" maxlength="15"></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="r1">male
+                            <input type="radio" name="r1"> female 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Languages prefered</td>
+                        <td> <input type="checkbox" name="cb1" > English</input>
+                            <input type="checkbox" name="cb1" > Telugu</input>
+                            <input type="checkbox" name="cb1" > Hindi</input>
+                        </td>
+                        
+                    </tr> 
+                    <tr>
+                        <td> Date of birth </td>
+                        <td><input type="date"></input></td>
+                          
+                    </tr>  
+                    <tr>
+                        <td>Country</td>
+                        <td> <select name="s1">
+                            <option>Select</option>
+                            <option>India</option>
+                            <option>USA</option>
+                            <option>UK</option>
+                            <option>Canada</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Area of Interest </td>
+                        <td><textarea name="ta" style ="text-anchor: middle;"></textarea></td>
+                    </tr> 
+                    <tr>
+                        <td>
+                            Any authorized Document
+                        </td>
+                        <td><input type="file" name="Resume">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="10" style="padding:10px;">
+                            <input type="submit" name="b1" value="Register">&nbsp;&nbsp;&nbsp;
+                            <input type="submit" name="b2" value="clear">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        
+    </fieldset></center>
+    </body>
+</head>
